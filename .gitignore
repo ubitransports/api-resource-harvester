@@ -1,0 +1,13 @@
+# PHP/Composer
+/vendor
+/composer.lock
+
+# OS
+.DS_Store
+
+# PHPUnit
+/build
+
+# IDEs
+.idea/
+.vscode/
