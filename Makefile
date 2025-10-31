@@ -9,10 +9,10 @@ test:
 	@docker-compose run --rm app vendor/bin/phpunit
 
 cs-fix:
-	@docker-compose run --rm app vendor/bin/php-cs-fixer fix
+	@docker-compose run --rm app vendor/bin/php-cs-fixer fix --allow-risky=yes
 
 cs-check:
-	@docker-compose run --rm app vendor/bin/php-cs-fixer fix --dry-run --diff
+	@docker-compose run --rm app vendor/bin/php-cs-fixer fix --dry-run --diff --allow-risky=yes
 
 ci:
 	@make cs-check
