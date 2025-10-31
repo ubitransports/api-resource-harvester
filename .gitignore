@@ -1,12 +1,12 @@
 # PHP/Composer
 /vendor
-/composer.lock
 
 # OS
 .DS_Store
 
 # PHPUnit
 /build
+.phpunit.result.cache
 
 # IDEs
 .idea/
