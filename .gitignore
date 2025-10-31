@@ -1,0 +1,15 @@
+# PHP/Composer
+/vendor
+
+# OS
+.DS_Store
+
+# PHPUnit
+/build
+.phpunit.result.cache
+
+# IDEs
+.idea/
+.vscode/
+
+.php-cs-fixer.cache
